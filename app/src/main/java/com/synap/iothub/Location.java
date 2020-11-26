@@ -1,10 +1,10 @@
 /*
- * Created by jerry for Synap INC on 25/11/20 14:46
+ * Created by jerry for Synap INC on 26/11/20 18:05
  * Copyright (c) 2020 . All rights reserved.
- * Last modified 25/11/20 14:46
+ * Last modified 26/11/20 13:10
  */
 
-package com.synap.testiothub;
+package com.synap.iothub;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;

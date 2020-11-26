@@ -1,12 +1,10 @@
 /*
- *
- *  Created by Jerry Naidoo for Synap INC on 9/23/20 2:13 PM
- *  Copyright (c) 2020 . All rights reserved.
- *  Last modified 9/23/20 2:13 PM
- *
+ * Created by jerry for Synap INC on 26/11/20 18:05
+ * Copyright (c) 2020 . All rights reserved.
+ * Last modified 26/11/20 15:38
  */
 
-package com.synap.testiothub;
+package com.synap.iothub;
 
 
 import android.annotation.SuppressLint;

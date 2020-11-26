@@ -11,7 +11,6 @@ import android.annotation.SuppressLint;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CompoundButton;
@@ -22,6 +21,14 @@ import androidx.appcompat.widget.SwitchCompat;
 import androidx.core.app.ActivityCompat;
 
 import com.google.gson.Gson;
+import com.synap.iothub.AimData;
+import com.synap.iothub.AimHubMessage;
+import com.synap.iothub.Event;
+import com.synap.iothub.EventRoot;
+import com.synap.iothub.GeoLocation;
+import com.synap.iothub.Location;
+import com.synap.iothub.e_DeviceEventDataType;
+import com.synap.iothub.e_EventReasons;
 import com.synap.preferences.SynapSharedPreferences;
 import com.synap.preferences.e_PreferencesKeys;
 
