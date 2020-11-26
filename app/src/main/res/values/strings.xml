@@ -1,0 +1,10 @@
+<!--
+  ~ Created by jerry for Synap INC on 25/11/20 14:19
+  ~ Copyright (c) 2020 . All rights reserved.
+  ~ Last modified 24/11/20 14:19
+  -->
+
+<resources>
+    <string name="app_name">TestIOTHub</string>
+    <string name="send_me_to_david">Send Me To David</string>
+</resources>

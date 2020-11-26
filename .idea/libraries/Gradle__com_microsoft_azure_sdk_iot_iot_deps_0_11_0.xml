@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.azure.sdk.iot:iot-deps:0.11.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot/iot-deps/0.11.0/6d554fa20c14462cb03d56a6b32a838752b685a/iot-deps-0.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot/iot-deps/0.11.0/f89c0d195cbc41c44169544a203913f002fa0b8d/iot-deps-0.11.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.microsoft.azure.sdk.iot/iot-deps/0.11.0/3a25f2f198e8d60b0e88cfd45edbc3f6ee6928e4/iot-deps-0.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
