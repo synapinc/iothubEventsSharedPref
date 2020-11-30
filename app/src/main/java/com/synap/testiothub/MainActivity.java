@@ -22,7 +22,7 @@ import androidx.core.app.ActivityCompat;
 
 import com.google.gson.Gson;
 import com.synap.iothub.AimData;
-import com.synap.iothub.AimHubMessage;
+import com.synap.iothub.HubMessenger;
 import com.synap.iothub.Event;
 import com.synap.iothub.EventRoot;
 import com.synap.iothub.GeoLocation;
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "Synap Logger >>> : ";
     Button sendAimButton;
 
-    AimHubMessage aimHubMessage;
+    HubMessenger hubMessenger;
 
     TextView txtSerial;
     TextView txtMAC;
@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity {
                 currentEventNumber = synapSharedPreferences.getIntSetting(e_PreferencesKeys.LastEventNumber);
                 eventRoot.eventSequence = currentEventNumber;
                 String msgStr = serialize(eventRoot);
-                aimHubMessage.sendMessages(msgStr);
+                hubMessenger.sendMessages(msgStr);
                 txtEventNumber.setText(String.valueOf(synapSharedPreferences.getIntSetting(e_PreferencesKeys.LastEventNumber)));
             }
         });
@@ -216,7 +216,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void createAFreshEvent() throws IOException, URISyntaxException {
 
-        aimHubMessage = new AimHubMessage(this);
+        hubMessenger = new HubMessenger(this);
 
         eventRoot = new EventRoot();
         aimData = new AimData();
